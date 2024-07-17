@@ -1,0 +1,4 @@
+https://github.com/BogdanAlinTudorache/TwitterBot
+https://developer.x.com/en/docs/platform-overview
+https://www.tweepy.org/
+https://developer.x.com/en/docs/tutorials/how-to-create-a-twitter-bot-with-twitter-api-v2
