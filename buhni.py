@@ -2,14 +2,15 @@ import tweepy
 import sys
 
 from credentials import twitter_bot_keys
-auth = tweepy.OAuthHandler(twitter_bot_keys['API Key'], twitter_bot_keys['API Key Secret'])
-auth.set_access_token(twitter_bot_keys['Access Token'], twitter_bot_keys['Access Token Secret'])
-api = tweepy.API(auth)
 
-try:
-    api.verify_credentials()
-    print("Authentication OK\n")
-except:
-    print("Error during authentication\n")
+client = tweepy.Client(bearer_token=twitter_bot_keys['Bearer token'])
 
-print(api.search_tweets("carrot"))
+query = "Carrot"
+
+tweets = client.search_recent_tweets(query=query, max_results=10)
+
+if tweets.data:
+    for tweet in tweets.data:
+        print(f"Tweet: {tweet.text}")
+else:
+    print("No tweets found.")
