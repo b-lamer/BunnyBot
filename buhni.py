@@ -1,16 +1,13 @@
 import tweepy
-import sys
+import random
+import time
+from credentials import botkeys
 
-from credentials import twitter_bot_keys
+client = tweepy.Client(
+    consumer_key = botkeys['API Key'],
+    consumer_secret = botkeys['API Key Secret'],
+    access_token = botkeys['Access Token'],
+    access_token_secret = botkeys['Access Token Secret']
+)
 
-client = tweepy.Client(bearer_token=twitter_bot_keys['Bearer token'])
-
-query = "Carrot"
-
-tweets = client.search_recent_tweets(query=query, max_results=10)
-
-if tweets.data:
-    for tweet in tweets.data:
-        print(f"Tweet: {tweet.text}")
-else:
-    print("No tweets found.")
+client.create_tweet(text="I do be testing")
