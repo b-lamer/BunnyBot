@@ -1,7 +1,7 @@
 import tweepy
 import random
 import time
-from credentials import botkeys
+from config import botkeys
 
 client = tweepy.Client(
     consumer_key = botkeys['API Key'],
