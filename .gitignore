@@ -1,2 +1,3 @@
 credentials.py
-*.txt
+config.py
+Resources.txt
