@@ -10,4 +10,9 @@ client = tweepy.Client(
     access_token_secret = botkeys['Access Token Secret']
 )
 
-client.create_tweet(text="I do be testing")
+def chooseTweet():
+    with open("tweets.txt", "r") as file:
+        lines = file.readlines()
+    return random.choice(lines).strip()
+
+client.create_tweet(text=chooseTweet())
