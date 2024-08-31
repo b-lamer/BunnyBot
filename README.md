@@ -1,4 +1,4 @@
-Bot is very simple in nature due to extreme limits of Twitter's FREE API.
+Bot is very simple in nature due to extreme limits of Twitter's Free API.
 Will make a branch with the program that I wanted to do. It may or may not work since I will be unable to test it since I don't want to pay $100 per month just for a fun project.
 ### If you want to use this (for some reason):
 - Make a new project/bot/api thing in the twitter developer platform
