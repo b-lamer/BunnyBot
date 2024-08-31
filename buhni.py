@@ -15,4 +15,6 @@ def chooseTweet():
         lines = file.readlines()
     return random.choice(lines).strip()
 
-client.create_tweet(text=chooseTweet())
+while True:
+    client.create_tweet(text=chooseTweet())
+    time.sleep(7200)
