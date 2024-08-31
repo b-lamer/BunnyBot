@@ -1,7 +1,9 @@
 botkeys = {
-    'API Key': 'xxxxx',
-    'API Key Secret': 'xxxxxx',
-    'Bearer token': 'xxxxxx',
-    'Access Token':'xxxxxx',
-    'Access Token Secret':'xxxxxxx'
+    'API Key': 'xxxxxxxxxxx',
+    'API Key Secret': 'xxxxxxxxxxx',
+    'Bearer Token': 'xxxxxxxxxxx',
+    'Access Token':'xxxxxxxxxxx',
+    'Access Token Secret':'xxxxxxxxxxx',
+    'Client ID':'xxxxxxxxxxx',
+    'Client Secret':'xxxxxxxxxxx'
 }
