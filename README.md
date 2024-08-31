@@ -1,7 +1,8 @@
-Bot is very simple in nature due to extreme limits of Twitter's Free API.
-I will make a branch with the program that I wanted to do. It may or may not work since I will be unable to test it since I don't want to pay $100 per month just for a fun project.
-### If you want to use this (for some reason):
-- Make a new project/bot/api thing in the twitter developer platform
-- Make sure the bot has read/write access in the developer platform console
-- Just add your twitter API credentials in config.py
-- And if you'd like, customize the tweets in tweets.txt to whatever you want
+## <ins>THIS LIKELY WILL NOT WORK</ins>
+# *This was made as what I originally planned with this bot, I am unable to test it because the cheapest paid Twitter API is $100 per month.*
+
+You can try it if you'd like, but you will need at least the basic API plan or it will give you an error.
+If you want a more basic, working one, then go back to https://github.com/b-lamer/BunnyBot
+
+### The function of this bot:
+The goal of this bot is to find tweets with words like 'carrot' or 'lettuce' and respond to them as if a rabbit would given pre-selected tweets.
