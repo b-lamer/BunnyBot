@@ -3,6 +3,8 @@ import random
 import time
 from config import botkeys
 
+keyword = "carrot OR lettuce"
+
 client = tweepy.Client(
     consumer_key = botkeys['API Key'],
     consumer_secret = botkeys['API Key Secret'],
@@ -16,5 +18,8 @@ def chooseTweet():
     return random.choice(lines).strip()
 
 while True:
-    client.create_tweet(text=chooseTweet())
+    timeline = client.search_recent_tweets(query = keyword, max_results = 10)
+    for tweet in timeline:
+        id = tweet.id
+        client.create_tweet(in_reply_to_tweet_id = id, text = chooseTweet())
     time.sleep(7200)
