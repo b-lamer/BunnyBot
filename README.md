@@ -8,4 +8,4 @@ I will make a branch with the program that I wanted to do. It may or may not wor
 
 ### The-original-dream Branch
 This branch is what I originally planned for the bot before I realized you needed to pay for Basic API. 
-It may or may not work, I did not pay to test it. (If you happen to have basic api, feel free to let me know if it works <3)
+It may or may not work, I did not pay to test it. (If you happen to have basic api, feel free to let me know if it works ) ;)
