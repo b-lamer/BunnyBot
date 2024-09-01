@@ -21,5 +21,6 @@ while True:
     timeline = client.search_recent_tweets(query = keyword, max_results = 10)
     for tweet in timeline:
         id = tweet.id
+        client.like(id)
         client.create_tweet(in_reply_to_tweet_id = id, text = chooseTweet())
     time.sleep(7200)
