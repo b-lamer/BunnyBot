@@ -5,3 +5,7 @@ I will make a branch with the program that I wanted to do. It may or may not wor
 - Make sure the bot has read/write access in the developer platform console
 - Just add your twitter API credentials in config.py
 - And if you'd like, customize the tweets in tweets.txt to whatever you want
+
+### The-original-dream Branch
+This branch is what I originally planned for the bot before I realized you needed to pay for Basic API. 
+It may or may not work, I did not pay to test it. (If you happen to have basic api, feel free to let me know if it works <3)
