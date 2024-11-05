@@ -7,5 +7,5 @@ Bot is very simple in nature due to extreme limits of Twitter's Free API.
 - And if you'd like, customize the tweets in tweets.txt to whatever you want
 
 ### What's the difference between v1 and v2?
-V2 is the project I originally planned on doing but was unable to test it due to the API endpoint needed costing $200/month.
-V1 is a "next best thing" project that would actually work with the free API. (But to be honest with you it's a bit lame)
+- V2 is the project I originally planned on doing but was unable to test it due to the API endpoint needed costing $200/month.
+- V1 is a "next best thing" project that would actually work with the free API. (But to be honest with you it's a bit lame)
